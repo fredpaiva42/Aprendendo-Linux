@@ -49,3 +49,38 @@
 ### Data
 - Sinalizar uma modificação ou atualizar a data da última modificação: `touch arquivo.txt`
 - Para ver a data do meu sistema: `date` or `date "+%d/%m/%Y`
+
+### Leitura de arquivos
+
+- Ler um arquivo: `cat google.txt`
+- Ler apenas as primeiras dez linhas do arquivo: `head google.txt`
+- Especificar quantas linhas do começo do arquivo: `head -n 3 google.txt`, dessa maneira o terminal só retorna as 3 primeiras linhas do arquivo, que foi o que eu pedi.
+- Para ler as dez últimas linhas: `tail google.txt`
+- Especificar quantas linhas do final do arquivo eu desejo ler: `tail -n 3 google.txt`
+- Para abrirmos um arquivo e navegar pelo seu texto podemos usar o comando: `less google.txt`
+
+## Edição de arquivos com o VI: inclusão, alteração, exclusão, repetição
+
+### Edição de arquivos com o vi
+
+- Para abrir o VI: `vi arquivo.txt`
+- Podemos navegar pelo texto utilizando as setas do teclado
+- Para entrar no modo de inclusão, basta apertarmos a tecla `i` onde queremos inserir texto.
+- Para retornar ao modo navegação basta apertarmos a tecla: `ESC`
+- Para salvar as alterações: `:w`
+- Para sair do VI: `:q`
+- Para inserir na posição seguinte onde se encontra o cursor: `a`
+- Para excluir caracteres: `x`, se digitarmos o número de caracteres que queremos apagar antes do `x`, será apagada aquela quantidade de caracteres: `11 x` 11 carateres serão apagados
+- Para excluir uma linha inteira: `dd`, digitar uma quantidade antes do `dd` funciona da mesma maneira que com o x.
+- Se quisermos salvar e sair ao mesmo tempo: `:wq`
+- Sair sem salvar: `:q!`
+- Adiciona texto ao final da linha: `Shift + a`
+- Ir para última linha do texto: `Shift + g`
+- Se quisermos ir para linha n, devemos apertar o número e logo em seguida `Shift + g`
+- Para ir para o final da linha atual: `$` ou `Shift + 4`
+- Para ir ao inicio da linha digitamos 0.
+- Para procurarmos uma palavra no texto: `/Palavra que quero encontrar`, isso vai para a primeira ocorrência da palavra, se apertarmos `n`, ele ira para a próxima ocorrência e se apertarmos `Shift + n`, voltamos para a anterior.
+- Para copiarmos uma linha basta apertar `yy`, podemos dizer a quantidade de linhas que queremos copiar também.
+- Para colar o que foi copiado: `p`, para colar mais de uma vez, basta informarmos a quantida antes do `p`.
+
+
