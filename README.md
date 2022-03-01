@@ -1,5 +1,5 @@
 # Comandos Linux
-oi
+
 ## Trabalhando com arquivos e diretórios
 - Verificar diretõrio atual: `pwd`
 - Listar arquivos e diretótios: `ls`
