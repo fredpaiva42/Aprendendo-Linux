@@ -19,6 +19,7 @@
 - Apagar um diretório vazio: `rmdir {nome do diretório}`
 - Apagar diretório: `rm -r {nome do diretório}`
 - Apagar um arquivo: `rm {nome do arquivo}`
+
 ## Caracteres coringa no bash
 - Ler arquivos baseados nos caracteres que eles possuem:
     - Para ler um arquivo que tem **um** caracter qualquer depois do seu nome, basta usarmos `?`, exemplo: `cat arquivo?.txt` então se no nosso diretório tiver qualquer arquivo que tenha um caracter ao seu lado vai ser lido.
