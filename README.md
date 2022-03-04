@@ -83,5 +83,3 @@
 - Para procurarmos uma palavra no texto: `/Palavra que quero encontrar`, isso vai para a primeira ocorrência da palavra, se apertarmos `n`, ele ira para a próxima ocorrência e se apertarmos `Shift + n`, voltamos para a anterior.
 - Para copiarmos uma linha basta apertar `yy`, podemos dizer a quantidade de linhas que queremos copiar também.
 - Para colar o que foi copiado: `p`, para colar mais de uma vez, basta informarmos a quantida antes do `p`.
-
-
