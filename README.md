@@ -83,3 +83,12 @@
 - Para procurarmos uma palavra no texto: `/Palavra que quero encontrar`, isso vai para a primeira ocorrência da palavra, se apertarmos `n`, ele ira para a próxima ocorrência e se apertarmos `Shift + n`, voltamos para a anterior.
 - Para copiarmos uma linha basta apertar `yy`, podemos dizer a quantidade de linhas que queremos copiar também.
 - Para colar o que foi copiado: `p`, para colar mais de uma vez, basta informarmos a quantida antes do `p`.
+
+## Processos
+
+- Saber quais processos estão sendo executados: `ps`
+- Todos os processos do sistema: `ps -e`
+- Para obter informações sobre os processos em execução: `ps -ef`
+- Para encontrar um processo específico (isso também funciona nos arquivos): `ps -ef | grep firefox`, ele vai mostrar só os processos que tem o firefox.
+- Encerrar um processo: `kill ID do processo`, exemplo `kill 164274`
+- Encerrar um processo que não está se encerrando: `kill -9 id do processo`
